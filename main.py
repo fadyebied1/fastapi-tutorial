@@ -10,7 +10,7 @@ class Item(BaseModel):
 @app.get("/")
 def root():
     return {"Hello": "World"}
-
+ 
 items = []
 
 @app.post("/items")
